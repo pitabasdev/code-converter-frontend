@@ -19,7 +19,7 @@ const Converter = () => {
 		try {
 			setLoading(true);
 			const response = await fetch(
-				`http://localhost:8080/convert?language=${language}`,
+				`https://code-converter-api.onrender.com/convert?language=${language}`,
 				{
 					method: "POST",
 					headers: {
@@ -43,7 +43,7 @@ const Converter = () => {
 	const handleDebug = async () => {
 		try {
 			setLoading(true);
-			const response = await fetch(`http://localhost:8080/debug`, {
+			const response = await fetch(`https://code-converter-api.onrender.com/debug`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
@@ -66,7 +66,7 @@ const Converter = () => {
 	const handleQuality = async () => {
 		try {
 			setLoading(true);
-			const response = await fetch(`http://localhost:8080/qualityCheck`, {
+			const response = await fetch(`https://code-converter-api.onrender.com/qualityCheck`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

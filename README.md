@@ -23,18 +23,15 @@ Code Converter is a web application that allows users to convert and debug code 
 To get started with Code Converter, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the necessary dependencies for both the frontend and backend.
-3. Start the backend server.
-4. Start the frontend development server.
-5. Open the application in your web browser.
+2. Install the necessary dependencies for both the frontend .
+3. Start the frontend development server.
+4. Open the application in your web browser.
 
 ## Installation and Usage 📦
 
 ### Backend
 
 ```bash
-# Navigate to the backend directory
-cd backend
 
 # Install dependencies
 npm install

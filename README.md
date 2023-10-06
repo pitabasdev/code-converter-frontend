@@ -31,7 +31,7 @@ To get started with Code Converter, follow these steps:
 ## Screenshots
 ![image](https://github.com/pitabasdev/Notes-app/assets/85897297/535618c0-37a2-47b9-972b-9628cf01f791)
 
-### Backend
+### Frontend
 
 ```bash
 
